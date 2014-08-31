@@ -12,7 +12,7 @@ This role only run on elao symfony standard vagrant box. See https://vagrantclou
 Role Variables
 --------------
 
-    bower_version: '>0'  # Bower version
+    elao_bower_version: '>0'  # Bower version
 
 
 Example Playbook
