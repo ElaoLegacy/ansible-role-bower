@@ -3,6 +3,7 @@ Ansible Role - Bower
 
 A bower role to install bower on elao symfony standard vagrant box
 
+
 Requirements
 ------------
 
@@ -11,7 +12,8 @@ This role only run on elao symfony standard vagrant box. See https://vagrantclou
 Role Variables
 --------------
 
-* version: (optionnal) Bower version
+    bower_version: '>0'  # Bower version
+
 
 Example Playbook
 ----------------
@@ -20,10 +22,12 @@ Example Playbook
       roles:
          - { role: elao.bower }
 
+
 License
 -------
 
 MIT
+
 
 Author Information
 ------------------

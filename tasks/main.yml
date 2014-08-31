@@ -5,7 +5,7 @@
     name={{ item }}
     state=present
     global=yes
-    version={{ version }}
+    version={{ bower_version }}
   with_items:
     - bower
   sudo: yes
